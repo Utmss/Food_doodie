@@ -13,7 +13,6 @@ class LogIn extends StatefulWidget {
   State<LogIn> createState() => _LogInState();
 }
 class _LogInState extends State<LogIn> {
-
 String email = "",password = "";
 final _formkey = GlobalKey<FormState>();
 TextEditingController usermailcontroller = new TextEditingController();

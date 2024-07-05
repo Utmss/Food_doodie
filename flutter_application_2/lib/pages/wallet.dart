@@ -36,7 +36,7 @@ class _WalletState extends State<Wallet> {
                         children: [
                           Text('Your Wallet',style: Appwidget.boldfieldtextstyle()),
                           SizedBox(height:5),
-                          Text('\$' + '100',style: Appwidget.semiboldtextstyle(),)
+                          Text('\₹' + '100',style: Appwidget.semiboldtextstyle(),)
                         ],
                       )
                     ],
@@ -58,7 +58,7 @@ class _WalletState extends State<Wallet> {
                         borderRadius: BorderRadius.circular(5),
                         
                       ),
-                      child: Text('\$' + '100',style: Appwidget.semiboldtextstyle(),),
+                      child: Text('\₹' + '100',style: Appwidget.semiboldtextstyle(),),
                     ),
                     Container(
                       padding: EdgeInsets.all(5),
@@ -67,7 +67,7 @@ class _WalletState extends State<Wallet> {
                         borderRadius: BorderRadius.circular(5),
                         
                       ),
-                      child: Text('\$' + '500',style: Appwidget.semiboldtextstyle(),),
+                      child: Text('\₹' + '500',style: Appwidget.semiboldtextstyle(),),
                     ),
                     Container(
                       padding: EdgeInsets.all(5),
@@ -76,7 +76,7 @@ class _WalletState extends State<Wallet> {
                         borderRadius: BorderRadius.circular(5),
                         
                       ),
-                      child: Text('\$' + '1000',style: Appwidget.semiboldtextstyle(),),
+                      child: Text('\₹' + '1000',style: Appwidget.semiboldtextstyle(),),
                     ),
                     Container(
                       padding: EdgeInsets.all(5),
@@ -85,7 +85,7 @@ class _WalletState extends State<Wallet> {
                         borderRadius: BorderRadius.circular(5),
                         
                       ),
-                      child: Text('\$' + '2000',style: Appwidget.semiboldtextstyle(),),
+                      child: Text('\₹' + '2000',style: Appwidget.semiboldtextstyle(),),
                     ),
                   ],
                 ),
